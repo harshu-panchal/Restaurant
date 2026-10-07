@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs>
+    <linearGradient id="g-package-classic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2a28"/>
+      <stop offset="1" stop-color="#b08a3e"/>
+    </linearGradient>
+    <pattern id="p-package-classic" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="32" cy="32" r="1.4" fill="#F7F2E8" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1100" fill="url(#g-package-classic)"/>
+  <rect width="900" height="1100" fill="url(#p-package-classic)"/>
+  <rect x="18" y="18" width="864" height="1064" fill="none" stroke="#F7F2E8" stroke-opacity="0.18" stroke-width="1"/>
+  <g transform="translate(16, 1056)">
+    <rect x="0" y="0" width="193.60000000000002" height="28" fill="#171513" opacity="0.55" rx="2"/>
+    <text x="14" y="18" font-family="Arial, sans-serif" font-size="12.857142857142858" letter-spacing="0.5" fill="#F7F2E8" opacity="0.85">Classic — Package photo</text>
+  </g>
+</svg>

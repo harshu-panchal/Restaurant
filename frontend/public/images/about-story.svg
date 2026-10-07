@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="g-about-story" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f2420"/>
+      <stop offset="1" stop-color="#6b4a32"/>
+    </linearGradient>
+    <pattern id="p-about-story" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="32" cy="32" r="1.4" fill="#F7F2E8" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#g-about-story)"/>
+  <rect width="1200" height="1500" fill="url(#p-about-story)"/>
+  <rect x="18" y="18" width="1164" height="1464" fill="none" stroke="#F7F2E8" stroke-opacity="0.18" stroke-width="1"/>
+  <g transform="translate(16, 1456)">
+    <rect x="0" y="0" width="263.20000000000005" height="28" fill="#171513" opacity="0.55" rx="2"/>
+    <text x="14" y="18" font-family="Arial, sans-serif" font-size="14" letter-spacing="0.5" fill="#F7F2E8" opacity="0.85">Our Story — Replace with photo</text>
+  </g>
+</svg>

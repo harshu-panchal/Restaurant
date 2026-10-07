@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g-dish-main-course" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1f1a"/>
+      <stop offset="1" stop-color="#5a2428"/>
+    </linearGradient>
+    <pattern id="p-dish-main-course" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="32" cy="32" r="1.4" fill="#F7F2E8" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#g-dish-main-course)"/>
+  <rect width="800" height="800" fill="url(#p-dish-main-course)"/>
+  <rect x="18" y="18" width="764" height="764" fill="none" stroke="#F7F2E8" stroke-opacity="0.18" stroke-width="1"/>
+  <g transform="translate(16, 756)">
+    <rect x="0" y="0" width="181.60000000000002" height="28" fill="#171513" opacity="0.55" rx="2"/>
+    <text x="14" y="18" font-family="Arial, sans-serif" font-size="11.428571428571429" letter-spacing="0.5" fill="#F7F2E8" opacity="0.85">Main Course — Dish photo</text>
+  </g>
+</svg>

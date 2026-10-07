@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="g-about-philosophy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f2420"/>
+      <stop offset="1" stop-color="#6b4a32"/>
+    </linearGradient>
+    <pattern id="p-about-philosophy" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="32" cy="32" r="1.4" fill="#F7F2E8" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g-about-philosophy)"/>
+  <rect width="1200" height="900" fill="url(#p-about-philosophy)"/>
+  <rect x="18" y="18" width="1164" height="864" fill="none" stroke="#F7F2E8" stroke-opacity="0.18" stroke-width="1"/>
+  <g transform="translate(16, 856)">
+    <rect x="0" y="0" width="302.40000000000003" height="28" fill="#171513" opacity="0.55" rx="2"/>
+    <text x="14" y="18" font-family="Arial, sans-serif" font-size="14" letter-spacing="0.5" fill="#F7F2E8" opacity="0.85">Our Philosophy — Replace with photo</text>
+  </g>
+</svg>

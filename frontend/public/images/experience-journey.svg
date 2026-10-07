@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+  <defs>
+    <linearGradient id="g-experience-journey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f2420"/>
+      <stop offset="1" stop-color="#6b4a32"/>
+    </linearGradient>
+    <pattern id="p-experience-journey" width="64" height="64" patternUnits="userSpaceOnUse">
+      <circle cx="32" cy="32" r="1.4" fill="#F7F2E8" opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#g-experience-journey)"/>
+  <rect width="1400" height="1000" fill="url(#p-experience-journey)"/>
+  <rect x="18" y="18" width="1364" height="964" fill="none" stroke="#F7F2E8" stroke-opacity="0.18" stroke-width="1"/>
+  <g transform="translate(16, 956)">
+    <rect x="0" y="0" width="310.24" height="28" fill="#171513" opacity="0.55" rx="2"/>
+    <text x="14" y="18" font-family="Arial, sans-serif" font-size="14" letter-spacing="0.5" fill="#F7F2E8" opacity="0.85">The Wedding Catering Journey — Photo</text>
+  </g>
+</svg>
