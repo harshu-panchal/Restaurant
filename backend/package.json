@@ -5,11 +5,11 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js",
     "seed": "node utils/seed.js",
     "seed:content": "node utils/seedContent.js",
-    "dev:memory": "node scripts/devWithMemoryDb.js",
+    "dev:memory": "node init && node scripts/devWithMemoryDb.js",
     "admin:reset-password": "node scripts/resetAdminPassword.js"
   },
   "dependencies": {

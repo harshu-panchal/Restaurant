@@ -5,7 +5,7 @@ const ApiError = require('../utils/ApiError');
 const storageConfig = require('../config/storage');
 
 const uploadDir = path.join(__dirname, '..', storageConfig.localUploadDir);
-if (!fs.existsSync(uploadDir)) {
+if (!storageConfig.isCloudinary && !fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true });
 }
 
